@@ -5,7 +5,7 @@ const undone = document.querySelector('.undone');
 const done = document.querySelector('.done');
 
 Array.from(input).forEach(task => {
-    task.addEventListener('click', updateState);
+  task.addEventListener('click', updateState);
 });
 
 
