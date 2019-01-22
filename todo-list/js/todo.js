@@ -8,7 +8,6 @@ Array.from(input).forEach(task => {
   task.addEventListener('click', updateState);
 });
 
-
 function updateState(event) {
 
 	if (event.currentTarget.checked) {
